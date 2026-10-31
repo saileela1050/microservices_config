@@ -1,0 +1,8 @@
+department.service.url=http://localhost:8082
+
+department.service.connect-timeout=3s
+department.service.read.timeout=5s
+
+spring.datasource.url=jdbc:mysql://localhost:3306/employee_service_db
+spring.datasource.username=root
+spring.datasource.password=${DB_PASSWORD}
